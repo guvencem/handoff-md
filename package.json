@@ -1,29 +1,35 @@
 {
   "name": "handoff-md",
   "version": "1.0.0",
-  "description": "Cross-model project continuity engine. Analyze your repo, generate HANDOFF.md for any AI model.",
+  "description": "One command to generate a portable project context for any AI model. Analyze your repo, generate HANDOFF.md.",
   "main": "dist/index.js",
   "bin": {
+    "handoff-md": "dist/index.js",
     "handoff": "dist/index.js"
   },
   "scripts": {
     "build": "tsc",
     "dev": "tsc --watch",
-    "start": "node dist/index.js"
+    "start": "node dist/index.js",
+    "prepublishOnly": "npm run build"
   },
   "keywords": [
     "ai",
     "context",
     "handoff",
     "claude",
-    "gpt",
-    "gemini",
-    "coding-assistant",
-    "developer-tools",
-    "cli"
+    "cursor",
+    "copilot",
+    "agents-md",
+    "claude-md",
+    "developer-tools"
   ],
   "author": "",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guvencem/handoff-md.git"
+  },
   "files": [
     "dist/"
   ],
