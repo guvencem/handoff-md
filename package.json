@@ -1,0 +1,38 @@
+{
+  "name": "handoff-md",
+  "version": "1.0.0",
+  "description": "Cross-model project continuity engine. Analyze your repo, generate HANDOFF.md for any AI model.",
+  "main": "dist/index.js",
+  "bin": {
+    "handoff": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "ai",
+    "context",
+    "handoff",
+    "claude",
+    "gpt",
+    "gemini",
+    "coding-assistant",
+    "developer-tools",
+    "cli"
+  ],
+  "author": "",
+  "license": "MIT",
+  "files": [
+    "dist/"
+  ],
+  "devDependencies": {
+    "@types/node": "^25.3.1",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "clipboardy": "^5.3.1",
+    "commander": "^14.0.3"
+  }
+}
