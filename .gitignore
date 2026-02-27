@@ -2,3 +2,4 @@ node_modules/
 dist/
 HANDOFF.md
 .claude/
+handoff-spec.md
