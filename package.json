@@ -1,6 +1,6 @@
 {
   "name": "handoff-md",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "One command to generate a portable project context for any AI model. Analyze your repo, generate HANDOFF.md.",
   "main": "dist/index.js",
   "bin": {
