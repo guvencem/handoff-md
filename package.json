@@ -28,8 +28,9 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/guvencem/handoff-md.git"
+    "url": "https://github.com/guvencem/handoff-md.git"
   },
+  "homepage": "https://github.com/guvencem/handoff-md#readme",
   "files": [
     "dist/"
   ],
